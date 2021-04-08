@@ -1,0 +1,115 @@
+@import '../../helper/global';
+
+
+.bubble-container {
+
+    // border: red solid 1px;
+    border-radius: 20px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+
+    padding: 10px 15px;
+
+    @media (prefers-color-scheme: light) {
+        background-color: #FFE7DA;
+    }
+
+      @media (prefers-color-scheme: dark) {
+        background-color: #222222;
+    }
+
+    .text-container {
+
+        display: flex;
+        flex-flow: row wrap;
+        align-content: center;
+
+        width: 100%;
+
+
+        .header-main {
+
+            font-weight: bold;
+            font-size: 1.1em;
+            
+            width: 100%;
+
+            @media only screen and (max-width: 350px) {
+                font-size: 0.95em;
+            }
+
+            @media only screen and (min-width: 1000px) {
+                font-size: 1.1em;
+            }
+
+            @media only screen and (min-width: 1600px) {
+                font-size: 1.5em;
+            }
+
+        }
+    
+        .subheader-main {
+            
+            width: 100%;
+            font-size: 0.8em;
+
+            @media only screen and (max-width: 350px) {
+                font-size: 0.75em;
+            }
+
+            @media only screen and (min-width: 1000px) {
+                font-size: 0.8em;
+            }
+
+            @media only screen and (min-width: 1600px) {
+                font-size: 1.1em;
+            }
+        }
+
+    }
+
+    .side-container {
+        width: 35%;
+        text-align: right;
+        margin: auto;
+        font-size: 1.15em;
+
+        @media only screen and (min-width: 1000px) {
+            font-size: 1.3em;
+        }
+
+        @media only screen and (min-width: 1600px) {
+            font-size: 1.9em;
+        }
+    }
+
+    .header-main-solo {
+        font-weight: bold;
+        font-size: 1.1em;
+        white-space: nowrap;
+        margin: 0 10px 0 0;
+        flex: 2;
+
+        @media only screen and (max-width: 350px) {
+            font-size: 0.95em;
+        }
+
+        @media only screen and (min-width: 1000px) {
+            font-size: 1.1em;
+        }
+
+        @media only screen and (min-width: 1600px) {
+            font-size: 1.5em;
+        }
+    }
+
+
+    .side-image {
+        max-width: 30px;
+        max-height: 30px;
+        flex: 1;
+    }
+
+}

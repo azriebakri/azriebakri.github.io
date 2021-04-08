@@ -1,0 +1,74 @@
+
+
+$color-background-light: #FFFFFF;
+$color-background-dark: #111111;
+
+$color-light: #FFFFFF;
+$color-dark: #111111;
+
+%global-color-scheme {
+
+  @media (prefers-color-scheme: light) {
+    background-color: $color-background-light;
+    color: $color-dark;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    background-color: $color-background-dark;
+    color: $color-light;
+  }
+}
+
+%basic-background-color-scheme {
+  @media (prefers-color-scheme: light) {
+    background-color: $color-background-light;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    background-color: $color-background-dark;
+  }
+}
+
+%basic-color-scheme {
+  @media (prefers-color-scheme: light) {
+    color: $color-dark;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    color: $color-light;
+  }
+}
+
+@mixin animation($duration, $delay) {
+  &.animated {
+      animation-duration: $duration;
+      animation-fill-mode: both;
+      animation-delay: $delay;
+
+      -webkit-animation-duration: $duration;
+      -webkit-animation-fill-mode: both
+    }
+
+  &.animatedFadeInUp {
+      opacity: 0
+  }
+
+  &.fadeInUp {
+      opacity: 0;
+      animation-name: fadeInUp;
+      -webkit-animation-name: fadeInUp;
+  }
+}
+
+@mixin theme-font-color($light, $dark) {
+  @media (prefers-color-scheme: light) {
+      background-color: white;
+      color: #111111;
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      background-color: #111111;
+      color: white;
+    }
+}
+
