@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.31ea1101.chunk.css",
+    "main.js": "/static/js/main.b0881b78.chunk.js",
+    "main.js.map": "/static/js/main.b0881b78.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1fa8ed90.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1fa8ed90.js.map",
+    "static/js/2.537d5720.chunk.js": "/static/js/2.537d5720.chunk.js",
+    "static/js/2.537d5720.chunk.js.map": "/static/js/2.537d5720.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.05cf213722e1b45fee3b2ba31469e9fa.js": "/precache-manifest.05cf213722e1b45fee3b2ba31469e9fa.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.31ea1101.chunk.css.map": "/static/css/main.31ea1101.chunk.css.map",
+    "static/js/2.537d5720.chunk.js.LICENSE.txt": "/static/js/2.537d5720.chunk.js.LICENSE.txt",
+    "static/media/bubble-azure.png": "/static/media/bubble-azure.065f8a06.png",
+    "static/media/bubble-core.png": "/static/media/bubble-core.2baccc69.png",
+    "static/media/bubble-d3.png": "/static/media/bubble-d3.043ff197.png",
+    "static/media/bubble-nodejs.png": "/static/media/bubble-nodejs.f04e155c.png",
+    "static/media/bubble-postgress.png": "/static/media/bubble-postgress.7209b9dd.png",
+    "static/media/bubble-react.png": "/static/media/bubble-react.0ad1d17f.png",
+    "static/media/bubble-web.png": "/static/media/bubble-web.e55c923d.png",
+    "static/media/github.192a6620.svg": "/static/media/github.192a6620.svg",
+    "static/media/linkedin.3c8afea5.svg": "/static/media/linkedin.3c8afea5.svg",
+    "static/media/me.jpg": "/static/media/me.692748b9.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1fa8ed90.js",
+    "static/js/2.537d5720.chunk.js",
+    "static/css/main.31ea1101.chunk.css",
+    "static/js/main.b0881b78.chunk.js"
+  ]
+}

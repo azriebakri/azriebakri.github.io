@@ -7,7 +7,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 
 
 ReactDOM.hydrate(
-  <Router basename="/portfolio-web">
+  <Router basename="/azriebakri.github.io">
     <App />
   </Router>,
   document.getElementById('root')
