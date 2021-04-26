@@ -7,6 +7,8 @@ import js from '../assets/bubble-img/bubble-js.png';
 import nodejs from '../assets/bubble-img/bubble-nodejs.png';
 import react from '../assets/bubble-img/bubble-react.png';
 import core from '../assets/bubble-img/bubble-core.png';
+import cplusplus from '../assets/bubble-img/bubble-c++.png';
+import java from '../assets/bubble-img/bubble-java.png';
 
 export  const skills = [
     {
@@ -40,5 +42,13 @@ export  const skills = [
     {
         header:"D3",
         icon:d3
+    },
+    {
+        header:"C++",
+        icon:cplusplus
+    },
+    {
+        header:"Java",
+        icon:java
     }
 ];

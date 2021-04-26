@@ -34,7 +34,7 @@ function Topbar (){
                 </Link>
             </div>
             <div className="container-navigation-item">
-                <a href="#" onClick={(e) => {
+                <a onClick={(e) => {
                     if(window.tidioChatApi){
                         window.tidioChatApi.open();
                     } else {
