@@ -11,6 +11,7 @@ import {
 import Topbar from '../../components/topbar/index';
 import Work from '../../pages/work/index';
 import About from '../../pages/about/index';
+import Portfolio from '../../pages/portfolio/index';
 import Error from '../../pages/error/index';
 
 function App() {
@@ -26,6 +27,9 @@ function App() {
         </Route>
         <Route path='/about'>
           <About/>
+        </Route>
+        <Route path='/portfolio'>
+          <Portfolio/>
         </Route>
         <Route>
           <Error/>

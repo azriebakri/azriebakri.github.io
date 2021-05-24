@@ -52,7 +52,7 @@ function About(){
                 <div className="about-section-text animated animatedFadeInUp fadeInUp">
                     <h1 className="about-header">
                         I’m Azrie, a fullstack developer who is 
-                        currently working for ServiceRocket
+                        currently working for Food Market Hub
                         as a software engineer in Kuala Lumpur, Malaysia.
                     </h1>
                     <div className="about-subheader">
@@ -101,8 +101,8 @@ function About(){
                         header="ServiceRocket"
                         subheader="Software Engineer"
                         yearFrom={20}
-                        yearTo={null}
-                        grid={{row:4, column:10, span:3}}
+                        yearTo={21}
+                        grid={{row:4, column:9, span:4}}
                     />
                 </div>
             </section>

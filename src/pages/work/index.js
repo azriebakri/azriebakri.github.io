@@ -2,8 +2,6 @@ import React from 'react';
 import './index.scss';
 
 import Animation from '../../components/svg-animation/index';
-import { Animated } from "react-animated-css";
-
 
 function Work(){
     return(
@@ -15,8 +13,8 @@ function Work(){
                         Fullstack developer.
                     </h1>
                     <div className="intro-subheader">
-                    Specialized in front-end development and at the same time
-                    aspiring to create engaging UI and bringing product to life.
+                        Specialized in front-end development and at the same time
+                        aspiring to create engaging UI and bringing product to life.
                     </div>
                 </div>
                 <div className="intro-section-animation animated animatedFadeInUp fadeInUp">
